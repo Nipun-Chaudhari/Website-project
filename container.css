@@ -1,0 +1,179 @@
+.container{
+    display: flex;
+    height: 2300px;
+    width: 1519px;
+    /* margin: 5px; */
+   
+    /* border: 2px solid black; */
+}
+
+#container{
+    background-color: rgb(241, 231, 231);
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 54.5%;
+    height: 98.5%;
+    margin-left: 75px;
+    /* border: 2px solid black; */
+}
+
+.videos{
+    display: flex;
+    margin: 14px;
+    flex-wrap: wrap;
+}
+
+.videos:hover{
+    cursor: pointer;
+}
+
+.thumbnail{
+    display: flex;
+    height: 100px;
+    width: 175px;
+    /* border: 2px solid red; */
+    margin-top: 1.5px;
+    margin-left: 1.5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    padding: 5px;
+}
+
+.description{
+    display: flex;
+    height: 100px;
+    width: 600px;
+    border-left: 3px solid black;
+    margin-top: 1.5px;
+    margin-left: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    flex-shrink: 2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    /* text-align: center; */
+    justify-content: center;
+    background-color: white;
+    padding: 5px;
+}
+
+.extra{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 2170px;
+    width: 558px;
+    /* border: 2px solid black; */
+}
+
+.signup{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 37px;
+    height: 540px;
+    width: 480px;
+    /* border: 2px solid red; */
+    border-radius: 7px;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+}
+
+.signup div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: xx-large;
+    font-family: fantasy;
+}
+
+#signup{
+    padding: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#signup div input{
+    margin: 20px;
+    border-radius: 5px;
+    height: 43px;
+    width: 377px;
+    text-align: center;
+    font-size: large;
+}
+
+.signup div button{
+    margin: 20px;
+    padding: 10px;
+    width: 129px;
+    border-radius: 37px;
+    font-size: 21px;
+    background-color: rgb(206 11 11 / 96%);
+    color: white;
+}
+
+.signup div button:hover{
+    cursor: pointer;
+}
+
+.homeblogs{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 37px;
+    height: 895px;
+    width: 480px;
+    /* border: 2px solid red; */
+    border-radius: 7px;
+    /* justify-content: center; */
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    justify-content: flex-start;
+    text-align: center;
+}
+
+.homeblogs h1{
+    font-family: cursive;
+    color: #455c78;
+    padding: 10px;
+}
+
+.blogcontent{
+    display: flex;
+    flex-wrap: wrap;
+    height: 130px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 15px;
+}
+
+.blogcontent div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.blogcontent div h2,p{
+    padding: 7px;
+}
+
+.advertiseblock{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 480px;
+    margin: 37px;
+    color: rgb(92, 84, 84);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 7px;
+    background-color: white;
+}

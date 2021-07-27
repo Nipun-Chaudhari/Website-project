@@ -1,0 +1,69 @@
+.footer{
+    display: flex;
+    background: #342525;
+    height: 200px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.socialMediaLinks{
+    display: flex;
+    height: 70px;
+    width: 327px;
+    margin: auto;
+    margin-top: 20px;
+    /* border: 1px solid white; */
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+
+#facebook img{
+    height: 56px;
+    width: 75px;
+    padding: 7px;
+    border-radius: 20px;
+}
+
+#facebook a{
+    margin-left: 5px;
+}
+
+#insta img{
+    height: 56px;
+    width: 75px;
+    padding: 7px;
+    border-radius: 20px;
+}
+
+#twitter img{
+    height: 56px;
+    width: 75px;
+    padding: 7px;
+    border-radius: 20px;
+}
+
+#twitter a{
+    margin-left: 16px;
+}
+
+.socialMediaLinks a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify center;
+}
+
+.socialMediaLinks img:hover{
+    cursor: pointer;
+}
+
+#copyright{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    opacity: 50%;
+    color: white;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(206 11 11 / 96%);
+}
+
+nav{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*Navigation Bar: List and List Item  */
+#navbar ul{
+    display: flex;
+    width: 58%;
+    flex-wrap: wrap;
+}
+
+#navbar ul li {
+    list-style: none;
+}
+
+#navbar ul li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 10px;
+    margin: 5px 21px;
+    border-radius: 20px;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+#logo{
+    margin-top: 2px;
+    
+}
+#logo img{
+    height: 40px;
+    width: 50px;
+    padding: 3px;
+}
+
+.search{
+    text-align: right;
+    padding: 5px;
+    width: 260px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 0ch;
+    margin: 5px;
+}
+
+.btn{
+    font-size: 20px;
+    padding: 5px;
+    width: 105px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 3px, 3px, 5px, rgb(158, 155, 155);
+    border: 0ch;
+    margin: 5px;
+}
+
+.btn:hover{
+    background-color: whitesmoke
+}
+
+#search{
+    margin-right: 10px;
+}
+
+#login{
+    text-shadow: 1.5px, 1.5px, 2px, rgba(207, 200, 200, 0.623);
+}
